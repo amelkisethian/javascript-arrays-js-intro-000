@@ -10,3 +10,10 @@ function addElementToBeginningOfArray(element,array) {
   [1, ...array]
   return array
 }
+
+function destructivelyAddElementToBeginningOfArraya (element,array) {
+
+var array = ["New York", "San Francisco"]
+ 
+array.unshift("element")
+}
